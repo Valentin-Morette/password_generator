@@ -17,6 +17,14 @@
   },
   "plugins": ["react", "import"],
   "rules": {
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
+    ],
     "no-console": "off",
     "no-restricted-syntax": [
       "error",
